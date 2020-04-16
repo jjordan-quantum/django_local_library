@@ -30,6 +30,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = [
 	'localhost',
+	'fathomless-reef-74318.herokuapp.com',
 ]
 
 
