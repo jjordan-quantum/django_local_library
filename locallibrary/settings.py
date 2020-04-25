@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'mdxfs+(r#w(@!be)r5t9*mq9@s2=7r
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = [
-	'localhost',
+	'127.0.0.1',
 	'fathomless-reef-74318.herokuapp.com',
 ]
 
